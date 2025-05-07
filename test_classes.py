@@ -6,7 +6,7 @@ class TestPassenger(unittest.TestCase):
     def test_attributes(self):
         p = Passenger(name="Ana", destination="C")
         self.assertEqual(p.name, "Ana")
-        self.assertEqual(p.destination, "D")
+        self.assertEqual(p.destination, "C")
 
 class TestMetroSystem(unittest.TestCase):
     def setUp(self):
